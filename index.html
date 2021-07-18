@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | @fjmcruz</title>
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./images/favicon.ico" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="logo">
+        <h2>Francis Cruz</h2>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#work-experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line-one"></div>
+        <div class="line-two"></div>
+        <div class="line-three"></div>
+      </div>
+    </nav>
+    <div id="about" class="about">
+      <video src="./videos/waves.mp4" autoplay loop muted></video>
+      <div class="image-card">
+        <div class="avatar">
+          <img src="./images/avatar.jpg" alt="" />
+        </div>
+      </div>
+      <div class="description">
+        <div class="personal-information">
+          <h2>Francis Cruz</h2>
+          <div class="contact-information">
+            <i class="bx bx-mail-send"></i>
+            <h6>francisjosephmcruz@gmail.com</h6>
+          </div>
+        </div>
+        <h4>Computer Engineering Graduate</h4>
+        <p>
+          I am a Computer Engineering graduate from De La Salle University –
+          Dasmariñas with a specialization in software development and database
+          management. I have a serious passion for programming and building
+          web-applications.
+        </p>
+        <p>
+          I enjoy learning new technologies and keeping up to date with its
+          latest trends for me to get a grasp on the future of the software
+          engineering industry.
+        </p>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/fjmcruz/" target="_blank"
+              ><i class="bx bxl-linkedin-square" style="color: whitesmoke"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/fjmcruz/" target="_blank"
+              ><i class="bx bxl-github" style="color: whitesmoke"></i
+            ></a>
+          </li>
+          <li>
+            <button
+              onclick="window.open('https://drive.google.com/uc?id=1UJuxHtArbd7-TKCbH0X_NeCLgmtoyW1D&export=download');"
+            >
+              Download CV
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="projects" class="projects">
+      <h2>PROJECTS:</h2>
+      <p>Technologies that I use for my projects:</p>
+      <ul>
+        <li>
+          <i class="bx bxl-html5" style="color: whitesmoke"> </i>
+        </li>
+        <li>
+          <i class="bx bxl-css3" style="color: whitesmoke"></i>
+        </li>
+        <li>
+          <i class="bx bxl-javascript" style="color: whitesmoke"></i>
+        </li>
+        <li>
+          <i
+            class="bx bxl-react bx-spin bx-flip-horizontal"
+            style="color: whitesmoke"
+          ></i>
+        </li>
+        <img src="https://www.php.net/images/logos/php-logo.svg" />
+        <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" />
+      </ul>
+      <div class="projects-grid">
+        <div
+          class="project"
+          style="background-image: url('./images/ssbps-thumbnail.jpg')"
+        >
+          <div class="details">
+            <h4>Self-serve Bus Payment System</h4>
+            <p>PHP & MySQL</p>
+            <div class="project-button">
+              <button
+                onclick="window.open('https://github.com/fjmcruz/self-serve-bus-payment-system/')"
+              >
+                Code
+              </button>
+              <button onclick="window.open('http://ssbps.epizy.com/');" hidden>
+                Live
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project"
+          style="background-image: url('./images/chat-app-thumbnail.jpg')"
+        >
+          <div class="details">
+            <h4>Chat App</h4>
+            <p>React.js & Firebase</p>
+            <div class="project-button">
+              <button
+                onclick="window.open('https://github.com/fjmcruz/chat-app/')"
+              >
+                Code
+              </button>
+              <button onclick="window.open('https://chat-app-c3e5d.web.app/');">
+                Live
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project"
+          style="background-image: url('./images/notes-app-thumbnail.jpg')"
+        >
+          <div class="details">
+            <h4>Notes App</h4>
+            <p>React.js</p>
+            <div class="project-button">
+              <button
+                onClick="window.open('https://github.com/fjmcruz/notes-app/')"
+              >
+                Code
+              </button>
+              <button
+                onclick="window.open('https://fjmcruz.github.io/notes-app/');"
+              >
+                Live
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project"
+          style="
+            background-image: url('./images/react-responsive-website-thumbnail.jpg');
+          "
+        >
+          <div class="details">
+            <h4>React Responsive Website</h4>
+            <p>React.js</p>
+            <div class="project-button">
+              <button
+                onclick="window.open('https://github.com/fjmcruz/react-responsive-website/');"
+              >
+                Code
+              </button>
+              <button
+                onclick="window.open('https://fjmcruz.github.io/react-responsive-website/');"
+              >
+                Live
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project"
+          style="background-image: url('./images/weather-app-thumbnail.jpg')"
+        >
+          <div class="details">
+            <h4>Weather App</h4>
+            <p>Vanilla JavaScript</p>
+            <div class="project-button">
+              <button
+                onclick="window.open('https://github.com/fjmcruz/weather-app/');"
+              >
+                Code
+              </button>
+              <button
+                onclick="window.open('https://fjmcruz.github.io/weather-app/');"
+              >
+                Live
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project"
+          style="background-image: url('./images/music-pad-thumbnail.jpg')"
+        >
+          <div class="details">
+            <h4>Music Pad</h4>
+            <p>Vanilla JavaScript</p>
+            <div class="project-button">
+              <button
+                onclick="window.open('https://github.com/fjmcruz/music-pad/');"
+              >
+                Code
+              </button>
+              <button
+                onclick="window.open('https://fjmcruz.github.io/music-pad/');"
+              >
+                Live
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="work-experience" class="work-experience">
+      <h2>Work Experience:</h2>
+      <div class="work-experience-list">
+        <ul>
+          <li>
+            <div class="company-logo">
+              <img src="./images/stratpoint-logo.png" alt="" />
+            </div>
+            <div class="company-details">
+              <h4>AEM Software Engineer (II)</h4>
+              <h4 class="company">STRATPOINT</h4>
+              <em>July 2021 - March 2022</em>
+              <p>
+                 Trained as an AEM (Adobe Experience Manager) developer using the Java programming language. 
+                 Developed the AEM dependency of Vue.js front-end components to be integrated in the CMS for dynamically editable content. 
+                 Provided fixes for open defects in both front-end and back-end on testing environments as well as on the production environment. 
+                 Contributed on the development of new features of the web-app through the software lifecycle, from requirements definition through successful deployment.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="company-logo">
+              <img src="./images/experts-academy-logo.png" alt="" />
+            </div>
+            <div class="company-details">
+              <h4>Cadet Engineer (Intern)</h4>
+              <h4 class="company">EXPERTS ACADEMY</h4>
+              <em>July 2020 - October 2020</em>
+              <p>
+                Trained and certified as a Sophos Engineer & Technician as well
+                as a Fortinet NSE 1 & NSE 2. Provided support for
+                troubleshooting, maintaining, monitoring, and deployment of
+                Sophos cybersecurity products to company clients.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="education" class="education">
+      <h2>Education:</h2>
+      <div class="education-list">
+        <ul>
+          <li>
+            <div class="academy-logo">
+              <img src="./images/dlsud-logo.png" alt="" />
+            </div>
+            <div class="education-details">
+              <h4>BS COMPUTER ENGINEERING</h4>
+              <h4 class="academy">De La Salle University – Dasmariñas</h4>
+              <em>2015 - 2021</em>
+              <p>
+                Took the course of Bachelor of Science in Computer Engineering,
+                with a specialization in software development and database
+                management, starting from 2015 to 2021. The programming
+                languages that I have learned during my academic years were C++,
+                Java, PHP, JavaScript, and SQL. My education in hardware
+                fundamentals was also built upon CISCO networking and Arduino
+                programming.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer">
+      <h4 id="copyright">fjmcruz © </h4>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
