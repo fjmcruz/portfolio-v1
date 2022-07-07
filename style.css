@@ -296,7 +296,7 @@ p {
   align-items: center;
   display: flex;
   justify-content: center;
-  padding: 4% 0%;
+  padding: 2% 0%;
   width: 60%;
 }
 
@@ -305,6 +305,7 @@ p {
   display: flex;
   gap: 2rem;
   justify-content: center;
+  padding: 2% 0%;
 }
 
 .work-experience-list img {
@@ -333,7 +334,7 @@ em {
 }
 
 .education-list {
-  padding: 4% 0%;
+  padding: 2% 0%;
   width: 60%;
 }
 
@@ -342,6 +343,7 @@ em {
   display: flex;
   gap: 2rem;
   justify-content: center;
+  padding: 2% 0%;
 }
 
 .academy-logo img {
