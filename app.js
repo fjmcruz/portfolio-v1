@@ -21,3 +21,8 @@ const navigationSlide = () => {
 };
 // Call navigation slide function
 navigationSlide();
+
+// Get current date for copyright footer
+const date = new Date();
+let year = date.getFullYear();
+document.getElementById("copyright").innerHTML += year;
