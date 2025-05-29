@@ -119,8 +119,8 @@ h4,
 h6,
 p,
 ul {
-  padding: 0.8rem;
-  line-height: 1.6rem;
+  padding: 0.8rem !important;
+  line-height: 1.6rem !important;
 }
 
 .description ul {
@@ -141,29 +141,13 @@ ul {
   transform: scale(1.08);
 }
 
-.description button {
-  background-color: darkcyan;
-  border-radius: 8px;
-  border: 2px solid darkcyan;
-  color: whitesmoke;
-  cursor: pointer;
-  padding: 10px 14px;
-  text-decoration: none;
-}
-
-.description button:hover {
-  background-color: cadetblue;
-  border: 2px solid cadetblue;
-  color: whitesmoke;
-}
-
 .personal-information {
   align-items: center;
   display: flex;
   gap: 0.4rem;
 }
 
-.contact-information {
+.personal-information h4 {
   align-items: center;
   background-color: darkcyan;
   border-radius: 40px;
@@ -173,14 +157,6 @@ ul {
   justify-content: center;
   padding: 0% 2%;
   text-align: center;
-}
-
-.contact-information i {
-  font-size: 1.2rem;
-}
-
-.contact-information i:hover {
-  transform: none;
 }
 
 .projects {
@@ -293,34 +269,31 @@ p {
 }
 
 .work-experience-list {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 2% 0%;
-  width: 60%;
+  width: 40%;
 }
 
 .work-experience-list li {
   align-items: center;
   display: flex;
   gap: 2rem;
-  justify-content: center;
   padding: 2% 0%;
 }
 
-.work-experience-list img {
-  height: 8rem;
-  width: 8rem;
+.work-experience-list i {
+  font-size: 2rem;
+}
+
+.work-experience-list h4,
+em {
+  padding: 0.4rem !important;
 }
 
 .company {
   color: darkcyan;
-}
-
-.work-experience-list h4,
-p,
-em {
-  padding: 0.4rem;
 }
 
 .education {
@@ -334,31 +307,31 @@ em {
 }
 
 .education-list {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
   padding: 2% 0%;
-  width: 60%;
+  width: 40%;
 }
 
 .education-list li {
   align-items: center;
   display: flex;
   gap: 2rem;
-  justify-content: center;
   padding: 2% 0%;
 }
 
-.academy-logo img {
-  height: 8rem;
-  width: 8rem;
+.education-list i {
+  font-size: 2rem;
+}
+
+.education-list h4,
+em {
+  padding: 0.4rem !important;
 }
 
 .academy {
   color: darkcyan;
-}
-
-.education-list h4,
-p,
-em {
-  padding: 0.4rem;
 }
 
 .footer {
@@ -427,11 +400,6 @@ em {
   .work-experience-list,
   .education-list {
     width: 80%;
-  }
-
-  .company-logo,
-  .academy-logo {
-    display: none;
   }
 }
 
